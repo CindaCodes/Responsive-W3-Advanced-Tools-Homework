@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color:  #61b390;
+  --secondary-color: #e1eacd;
+  --box-shadow: 0 5px 10px #01352c;
 }
 
 body {
@@ -34,8 +34,8 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .navigation-links a {
@@ -44,12 +44,12 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .primary-link:hover {
@@ -58,17 +58,17 @@ p {
 
 .secondary-link {
   border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
 }
 
 .homepage-link {
   color: var(--primary-color);
-  text-align: center;
   display: block;
+  text-align: center;
 }
 
 .about-paragraphs {
@@ -80,10 +80,10 @@ p {
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
   color: var(--primary-color);
+  display: flex;
   font-size: 28px;
+  justify-content: center;
   text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ p {
 
   .project-link {
     display: block;
-    text-align: center;
     margin: 0 20px;
+    text-align: center;
   }
 }
